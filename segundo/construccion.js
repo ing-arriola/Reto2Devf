@@ -10,7 +10,13 @@ class construccion{
         console.log("cree construccion");
     }
     metrosCuadrados(){
-      console.log("Los metros metros cuadrados del terreno son: "+this.largoTerreno*this.anchoTerreno+" m2") 
+      console.log("Los metros metros cuadrados del terreno son: "+this.largoTerreno*this.anchoTerreno+" m2")
+    }
+    direccionConstruccion(){
+      console.log("La direccion es: "+this.direccion);
+    }
+    setDireccion(dir){
+      this.direccion=dir
     }
 }
 module.exports={
