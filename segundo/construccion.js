@@ -10,7 +10,7 @@ class construccion{
         console.log("cree construccion");
     }
     metrosCuadrados(){
-      return "Los metros metros cuadrados del terreno son: "+this.largoTerreno*this.anchoTerreno+" m2"
+      console.log("Los metros metros cuadrados del terreno son: "+this.largoTerreno*this.anchoTerreno+" m2") 
     }
 }
 module.exports={

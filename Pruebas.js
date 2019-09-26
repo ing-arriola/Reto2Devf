@@ -14,5 +14,5 @@ console.log(juancho)
 console.log("el promedio de musica es: "+juan.calcularPromedio())*/
 console.log("el promedio de musica es: "+maestros[0].calcularPromedio())
 maestros[1].calcularPromedio()//Esta clase ha sobre-escrito (Override) el metodo de maestro
-console.log(casitaUno.metrosCuadrados())
-console.log(edificioUno.metrosCuadrados())
+casitaUno.metrosCuadrados()
+edificioUno.metrosCuadrados()
